@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+
+.header_container{
+    width: 100%;
+    border-bottom: 1px solid white;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: black;
+}
+
+.header_main_icon_container{
+width: 100%;
+display: flex;
+flex-direction: row;
+gap:0.5rem;
+}
+
+.header_fnt{
+    color: white;
+    font-family: "Sevillana", cursive;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.header_nav_body{
+    padding-right: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:2rem;
+
+}
